@@ -3,7 +3,7 @@ function respondToUser() {
   
   // TODO: if player is back to position
   // stop them
-  
+  // test
   // Player jumping controls
   if (keyWentDown("UP")) {
     player.velocityY = -4;
