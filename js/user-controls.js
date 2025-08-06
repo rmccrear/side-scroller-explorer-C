@@ -9,7 +9,7 @@ function respondToUser() {
   
   // Player jumping controls
   if (keyWentDown("UP")) {
-    player.velocityY = player.velocityY + 0.2;
+    player.velocityY = player.velocityY - 0.2;
   }
   
   // Set velocityY to 4 when player reaches y=100

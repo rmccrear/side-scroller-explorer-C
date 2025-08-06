@@ -9,8 +9,7 @@ function doSpriteMovement() {
     if(enemy.x < 0) {
         enemy.x = 400;
     }
-}
-// Movement of 
+    // Movement of 
 // set velocity for the obstacle and the target
 mushroom.scale = 1;
 fly.x = 425;
@@ -43,3 +42,4 @@ if(mushroom.x<20){
   // GAME OVER
   // if health runs out
   // show Game over
+}
