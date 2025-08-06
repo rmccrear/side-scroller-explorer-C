@@ -34,7 +34,7 @@ if(mushroom.x<20){
   
   // SCOREBOARD
   // add scoreboard and health meter
-  fill("black");
+  fill(0,0,0);
   textSize(20);
   text("Health:", 280, 30);
   text (health, 350, 30);
