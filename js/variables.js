@@ -2,9 +2,6 @@
 var food;
 var player;
 var enemy;
-var score;
-var health;
+var score = 0;
+var health = 100;
 
-// Initialize score Initialize health  
-  score = 0;
-  health = 100; 

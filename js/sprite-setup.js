@@ -14,6 +14,6 @@ function setupSprites() {
   // Create enemy sprite - moving from right to left
   enemy = createSprite(400, 320, 35, 35);
   enemy.addAnimation('enemy', enemyAnimation);
-  enemy.velocityX = -5;
+  enemy.velocityX = -2;
   enemy.velocityY = 0;
 }
