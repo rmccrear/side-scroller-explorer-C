@@ -1,5 +1,6 @@
 
 function showBoards() {
+  
   // Display score
   fill(255, 255, 255); // White text
   textSize(24);

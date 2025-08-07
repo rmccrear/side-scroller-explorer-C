@@ -5,8 +5,8 @@
 
 function doSpriteMovement() {
     // Update positions based on velocity
-    food.x = food.velocityX;
-    enemy.x = enemy.velocityX;
+    food.velocityX;
+    enemy.velocityX;
 
     // Food movement - moves from right to left and repeats
     if (food.x < -20) {
