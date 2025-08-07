@@ -3,7 +3,7 @@ function respondToUser() {
   
   // TODO: if player is back to position
   // stop them
-  if (player.y <= 300) {
+  if (player.y == 300) {
     player.velocityY = 0;
   }
   
