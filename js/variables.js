@@ -5,3 +5,6 @@ var enemy;
 var score;
 var health;
 
+// Initialize score Initialize health  
+  score = 0;
+  health = 100; 
